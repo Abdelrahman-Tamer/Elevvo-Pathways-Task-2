@@ -203,6 +203,10 @@ textarea:focus {
   .contact-form {
     padding: 1.5rem;
   }
+  .success{
+    top: 0;
+  }
+    
 }
 
 @media (max-width: 480px) {
@@ -217,4 +221,8 @@ textarea:focus {
   .contact-form {
     padding: 1rem;
   }
+  .success{
+    top: 0;
+  }
 }
+
