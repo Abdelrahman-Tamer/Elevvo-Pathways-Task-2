@@ -204,7 +204,7 @@ textarea:focus {
     padding: 1.5rem;
   }
   .success{
-    top: 0;
+    margin: 10px;
   }
     
 }
@@ -222,7 +222,8 @@ textarea:focus {
     padding: 1rem;
   }
   .success{
-    top: 0;
+    margin: 10px;
   }
 }
+
 
