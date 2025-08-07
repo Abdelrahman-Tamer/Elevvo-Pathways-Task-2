@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-card">
+            <div class="contact-header">
+                <h1>📧 Contact Us</h1>
+                <p>We'd love to hear from you. Send us a message!</p>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <div class="input-filed">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" placeholder="Enter your name" required>
+                        <div class="message">
+                            <p>Please Enter Your Name</p>
+                        </div>
+                    </div>
+
+                    <div class="input-filed">
+                        <label for="ُemailAddress">Email Address</label>
+                        <input type="email" id="ُemailAddress" placeholder="Enter your email address">
+                        <div class="message">
+                            <p>Please Enter Your Email Address</p>
+                        </div>
+                    </div>
+
+                    <div class="input-filed">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter your subject">
+                        <div class="message">
+                            <p>Please Enter Your Subject</p>
+                        </div>
+                    </div>
+
+                    <div class="input-filed">
+                        <label for="message">Message</label>
+                        <textarea type="text" id="message" placeholder="Enter your message here..."></textarea>
+                        <div class="message">
+                            <p>Please Enter Your Message</p>
+                        </div>
+                    </div>
+                    <div class="contact-btn">
+                        <button class="btn" id="contactBtn" type="button">
+                            Send Message ✈️
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="success" id="successMessage">
+        <p>Message  Was Sent Successfully ✅</p>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
