@@ -123,7 +123,7 @@ textarea:focus {
 .message p {
   font-size: 0.8rem;
   font-weight: 500;
-  margin: 2pxpx;
+  margin: 2px;
   background-color: rgba(255, 0, 0, 0.2);
   color: red;
   padding: 8px 15px;
@@ -140,10 +140,11 @@ textarea:focus {
   font-size: 0.9rem;
   font-weight: 500;
   color: #e9ecef;
-  background-color: rgba(0, 200, 0, 0.5);
+  background-color: #12b31a;
   padding: 12px;
   border-radius: 4px;
   transition: opacity 0.8s ease;
+  pointer-events: none;
 }
 
 /* Button styling inside contact-btn */
@@ -203,13 +204,12 @@ textarea:focus {
   .contact-form {
     padding: 1.5rem;
   }
-  .success{
-    margin: 10px;
-  }
-    
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 45px 0;
+  }
   .contact-header h1 {
     font-size: 1.75rem;
   }
@@ -221,9 +221,4 @@ textarea:focus {
   .contact-form {
     padding: 1rem;
   }
-  .success{
-    margin: 10px;
-  }
 }
-
-
